@@ -1,5 +1,6 @@
 #!/bin/bash
-LOG_FILE="./setup.log"
+CUR_PATH=$(pwd)
+LOG_FILE="$CUR_PATH/setup.log"
 cat /dev/null > ${LOG_FILE}
 1>${LOG_FILE} 2>&1
 
